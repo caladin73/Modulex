@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DDF5958B-358B-4A5C-9E72-689AE1440FCF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ModulexDAL</RootNamespace>
+    <AssemblyName>ModulexDAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=e44a2bc38ed2c13c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder">
+      <HintPath>bin\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsAllowPriceEditDAL.cs" />
+    <Compile Include="clsBecomeADealerCMSDAL.cs" />
+    <Compile Include="clsBricksCampaignsCmsDAL.cs" />
+    <Compile Include="clsCheckoutConfirmCmsDAL.cs" />
+    <Compile Include="clsCommonDAL.cs" />
+    <Compile Include="clsCompaniesDAL.cs" />
+    <Compile Include="clsConfigurationFieldTypeDAL.cs" />
+    <Compile Include="clsContactAddressDAL.cs" />
+    <Compile Include="clsContactDAL.cs" />
+    <Compile Include="clsContactPersonDAL.cs" />
+    <Compile Include="clsCookiesDAL.cs" />
+    <Compile Include="clsCountriesDAL.cs" />
+    <Compile Include="clsCurrencyDAL.cs" />
+    <Compile Include="clsCustomerBonusPointsDAL.cs" />
+    <Compile Include="clsCustomerDeliveryAddressDAL.cs" />
+    <Compile Include="clsCustomerDiscountGroupDAL.cs" />
+    <Compile Include="clsCustomerGroupsDAL.cs" />
+    <Compile Include="clsCustomerInvoicesDAL.cs" />
+    <Compile Include="clsCustomerInvoiceStatusDAL.cs" />
+    <Compile Include="clsCustomerInvoiceStatusTransalationDAL.cs" />
+    <Compile Include="clsCustomerInvoiceTransalationDAL.cs" />
+    <Compile Include="clsCustomerInvoiceTypesDAL.cs" />
+    <Compile Include="clsCustomerLocationsDAL.cs" />
+    <Compile Include="clsCustomersDAL.cs" />
+    <Compile Include="clsCustomersItemCatalogsDAL.cs" />
+    <Compile Include="clsCustomersPersonsDAL.cs" />
+    <Compile Include="clsCustomerThemesDAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDatabaseDAL.cs" />
+    <Compile Include="clsDealerCustomerDAL.cs" />
+    <Compile Include="clsDealerMenuDAL.cs" />
+    <Compile Include="clsDealerRoleMenuDAL.cs" />
+    <Compile Include="clsDealerUserProfileTabsRolesDAL.cs" />
+    <Compile Include="clsDeliveryCostCountryDAL.cs" />
+    <Compile Include="clsDiscountsDAL.cs" />
+    <Compile Include="clsDownloadCategoryDAL.cs" />
+    <Compile Include="clsDownloadsDAL.cs" />
+    <Compile Include="clsDownloadSubCategoryDAL.cs" />
+    <Compile Include="clsErrorLogDAL.cs" />
+    <Compile Include="clsFlashBannerDAL.cs" />
+    <Compile Include="clsFlashBannerRolesDAL.cs" />
+    <Compile Include="clsFrontPagesContentDAL.cs" />
+    <Compile Include="clsGalleryInternationalAccountsDAL.cs" />
+    <Compile Include="clsGalleryPresentationsDAL.cs" />
+    <Compile Include="clsGalleryReferencesDAL.cs" />
+    <Compile Include="clsGeneralCMSDAL.cs" />
+    <Compile Include="clsGSFCatalogsDAL.cs" />
+    <Compile Include="clsHeadlinesDAL.cs" />
+    <Compile Include="clsHeadlinesTranslationDAL.cs" />
+    <Compile Include="clsInspirationDAL.cs" />
+    <Compile Include="clsInternationalAccountRolesDAL.cs" />
+    <Compile Include="ClsInvoicePaymentDetailsDAL.cs" />
+    <Compile Include="clsLanguagesDAL.cs" />
+    <Compile Include="clsLoginInfoDAL.cs" />
+    <Compile Include="clsLoginLogDAL.cs" />
+    <Compile Include="clsLookUpTableDAL.cs" />
+    <Compile Include="clsManageVideoDAL.cs" />
+    <Compile Include="clsMenuDAL.cs" />
+    <Compile Include="clsModulexColorDAL.cs" />
+    <Compile Include="clsMyModulexFrontPageCmsDAL.cs" />
+    <Compile Include="clsMyModulexPictureDAL.cs" />
+    <Compile Include="clsNewsCategoryDAL.cs" />
+    <Compile Include="clsNewsDAL.cs" />
+    <Compile Include="clsNews_RolesDAL.cs" />
+    <Compile Include="clsOrderCheckoutDAL.cs" />
+    <Compile Include="clsOrderFeeDAL.cs" />
+    <Compile Include="clsOrderHeaderColorsDAL.cs" />
+    <Compile Include="clsOrderHeadersDAL.cs" />
+    <Compile Include="clsOrderInvoiceAddressDAL.cs" />
+    <Compile Include="clsOrderLinesDAL.cs" />
+    <Compile Include="clsOrderLinesMetadataDAL.cs" />
+    <Compile Include="clsPageLogDAL.cs" />
+    <Compile Include="clsPageSecurityRolesDAL.cs" />
+    <Compile Include="clsPaymentOrderTrackDAL.cs" />
+    <Compile Include="clsPaymentProviderDAL.cs" />
+    <Compile Include="clsPaymentTermsDAL.cs" />
+    <Compile Include="clsPaymentTextDAL.cs" />
+    <Compile Include="clsPersonTypesDAL.cs" />
+    <Compile Include="clsPIM_CatalogDAL.cs" />
+    <Compile Include="clsPIM_Catalog_RolesDAL.cs" />
+    <Compile Include="clsPIM_Catalog_TagDAL.cs" />
+    <Compile Include="clsPIM_Catalog_UserTypeDAL.cs" />
+    <Compile Include="clsPIM_ContentDAL.cs" />
+    <Compile Include="clsPIM_Content_CatalogDAL.cs" />
+    <Compile Include="clsPIM_Content_RolesDAL.cs" />
+    <Compile Include="clsPIM_Content_TagDAL.cs" />
+    <Compile Include="clsPIM_Content_TypeDAL.cs" />
+    <Compile Include="clsPIM_Content_Type_TagDAL.cs" />
+    <Compile Include="clsPIM_Content_UserTypeDAL.cs" />
+    <Compile Include="clsPIM_ConversionDAL.cs" />
+    <Compile Include="clsPIM_Conversion_SizesDAL.cs" />
+    <Compile Include="clsPIM_Conversion_TypeDAL.cs" />
+    <Compile Include="clsPIM_Default_SizesDAL.cs" />
+    <Compile Include="clsPIM_Search_Log_ResultDAL.cs" />
+    <Compile Include="clsPIM_SubCatalogDAL.cs" />
+    <Compile Include="clsPIM_SubCatalog_RolesDAL.cs" />
+    <Compile Include="clsPIM_SubCatalog_TagDAL.cs" />
+    <Compile Include="clsPIM_SubCatalog_UserTypeDAL.cs" />
+    <Compile Include="clsPIM_SubContent_TypeDAL.cs" />
+    <Compile Include="clsPIM_TagDAL.cs" />
+    <Compile Include="clsPIM_UserLockerDAL.cs" />
+    <Compile Include="clsPIM_WebServices_LogDAL.cs" />
+    <Compile Include="clsPostalCodesDAL.cs" />
+    <Compile Include="clsProductBuilderDAL.cs" />
+    <Compile Include="clsProductCategoriesDAL.cs" />
+    <Compile Include="clsProductComponentsDAL.cs" />
+    <Compile Include="clsProductConfigurationDAL.cs" />
+    <Compile Include="clsProductConfigurationFieldsDAL.cs" />
+    <Compile Include="clsProductDocumentsDAL.cs" />
+    <Compile Include="clsProductFamilyCategoryTypesConfigurationDAL.cs" />
+    <Compile Include="clsProductFamilyCategoryTypesDAL.cs" />
+    <Compile Include="clsProductFamilyCategoryTypesGeneralDAL.cs" />
+    <Compile Include="clsProductFamilyCategoryTypesGraphicMethodDAL.cs" />
+    <Compile Include="clsProductFamilyCategoryTypesInstallationMethodDAL.cs" />
+    <Compile Include="clsProductFamilyCategoryTypesMaterialsDAL.cs" />
+    <Compile Include="clsProductFamilyCategoryTypesTypicalUseDAL.cs" />
+    <Compile Include="clsProductFamilyDAL.cs" />
+    <Compile Include="clsProductHandbookInfoDAL.cs" />
+    <Compile Include="clsProductRelatedProductsDAL.cs" />
+    <Compile Include="clsProductTextFieldsDAL.cs" />
+    <Compile Include="clsProductTranslationsDAL.cs" />
+    <Compile Include="clsProductTypesDAL.cs" />
+    <Compile Include="clsReferencesRolesDAL.cs" />
+    <Compile Include="clsReportIntervalTypeDAL.cs" />
+    <Compile Include="clsReportLanguagesDAL.cs" />
+    <Compile Include="clsReportRolesDAL.cs" />
+    <Compile Include="clsReportsDAL.cs" />
+    <Compile Include="clsReportsSubscribersDeliveryFormatDAL.cs" />
+    <Compile Include="clsReportsSubscribersDynamicParametersTypeDAL.cs" />
+    <Compile Include="clsReportSubscriberDAL.cs" />
+    <Compile Include="clsReportSubscriberParameterDAL.cs" />
+    <Compile Include="clsReportSubscriptionDAL.cs" />
+    <Compile Include="clsRolesDAL.cs" />
+    <Compile Include="clsRSSDAL.cs" />
+    <Compile Include="clsSalesPersonsDAL.cs" />
+    <Compile Include="clsServiceAgreementsDAL.cs" />
+    <Compile Include="clsServiceStatusDAL.cs" />
+    <Compile Include="clsServiceTicketPictureDAL.cs" />
+    <Compile Include="clsServiceTicketsDAL.cs" />
+    <Compile Include="clsServiceTicketStatusDAL.cs" />
+    <Compile Include="clsServiceTicketTypesDAL.cs" />
+    <Compile Include="clsServiceTypesDAL.cs" />
+    <Compile Include="clsShipmentMethodsDAL.cs" />
+    <Compile Include="clsStandardColorDAL.cs" />
+    <Compile Include="clsStartupCostsDAL.cs" />
+    <Compile Include="clsStaticWebPartsDAL.cs" />
+    <Compile Include="clsTopSellerDAL.cs" />
+    <Compile Include="clsTranslatedDealerMenuDAL.cs" />
+    <Compile Include="clsUserLocationsDAL.cs" />
+    <Compile Include="clsUserRolesDAL.cs" />
+    <Compile Include="clsUsersDAL.cs" />
+    <Compile Include="clsUsersDiscountDAL.cs" />
+    <Compile Include="clsUsers_DataDAL.cs" />
+    <Compile Include="clsUserWebServiceConfigurationDAL.cs" />
+    <Compile Include="clsWatchandLearnDAL.cs" />
+    <Compile Include="clsWelovetohelpDetailDAL.cs" />
+    <Compile Include="cls_CommonDAL.cs" />
+    <Compile Include="cls_ConfigurationDAL.cs" />
+    <Compile Include="clsLocationDAL.cs" />
+    <Compile Include="clsUserConditionDAL.cs" />
+    <Compile Include="clsProductPicturesDAL.cs" />
+    <Compile Include="clsProductSearchLogDAL.cs" />
+    <Compile Include="clsOrderHeaderDocumentsDAL.cs" />
+    <Compile Include="ClsOrderPaymentDetailsDAL.cs" />
+    <Compile Include="clsArchitectsScandinavianDesignDAL.cs" />
+    <Compile Include="clsArchitectsScandinavianDesignRolesDAL.cs" />
+    <Compile Include="clsHelpLinesDAL.cs" />
+    <Compile Include="clsHelpHeadersDAL.cs" />
+    <Compile Include="clsHelpPagesDAL.cs" />
+    <Compile Include="clsOrderPrefixDAL.cs" />
+    <Compile Include="clsPresentationDAL.cs" />
+    <Compile Include="clsDeliveryCostTransporterDAL.cs" />
+    <Compile Include="clsDeliveryCostPostalCodeDAL.cs" />
+    <Compile Include="clsPaymentAreaDAL.cs" />
+    <Compile Include="clsNewsLettersDAL.cs" />
+    <Compile Include="clsNewslettersRolesDAL.cs" />
+    <Compile Include="clsPaymentFromDAL.cs" />
+    <Compile Include="clsLoyaltyStatusDAL.cs" />
+    <Compile Include="clsRedeemProductsDAL.cs" />
+    <Compile Include="DALEmailMetaData.cs" />
+    <Compile Include="clsProductsMainTableDAL.cs" />
+    <Compile Include="clsPriceListCMSDAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="clsWelovetohelpHeaderDAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ModulexEAL\ModulexEAL.csproj">
+      <Project>{D3CFA4DD-3D41-4C36-95C0-AC1AFE75D4AF}</Project>
+      <Name>ModulexEAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

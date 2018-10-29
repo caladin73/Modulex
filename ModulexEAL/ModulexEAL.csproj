@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D3CFA4DD-3D41-4C36-95C0-AC1AFE75D4AF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ModulexEAL</RootNamespace>
+    <AssemblyName>ModulexEAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsCheckDBNull.cs" />
+    <Compile Include="clsCheckNull.cs" />
+    <Compile Include="clsCompaniesEAL.cs" />
+    <Compile Include="clsConfigurationFieldTypeEAL.cs" />
+    <Compile Include="clsContactAddressEAL.cs" />
+    <Compile Include="clsContactEAL.cs" />
+    <Compile Include="clsContactPersonEAL.cs" />
+    <Compile Include="clsCookiesEAL.cs" />
+    <Compile Include="clsCountriesEAL.cs" />
+    <Compile Include="clsCurrencyEAL.cs" />
+    <Compile Include="clsCustomerBonusPointsEAL.cs" />
+    <Compile Include="clsCustomerDeliveryAddressEAL.cs" />
+    <Compile Include="clsCustomerDiscountGroupEAL.cs" />
+    <Compile Include="clsCustomerGroupsEAL.cs" />
+    <Compile Include="clsCustomerInvoicesEAL.cs" />
+    <Compile Include="clsCustomerInvoiceStatusEAL.cs" />
+    <Compile Include="clsCustomerInvoiceStatusTransalationEAL.cs" />
+    <Compile Include="clsCustomerInvoiceTransalationEAL.cs" />
+    <Compile Include="clsCustomerInvoiceTypesEAL.cs" />
+    <Compile Include="clsCustomerLocationsEAL.cs" />
+    <Compile Include="clsCustomersEAL.cs" />
+    <Compile Include="clsCustomersItemCatalogsEAL.cs" />
+    <Compile Include="clsCustomersPersonsEAL.cs" />
+    <Compile Include="clsCustomerThemesEAL.cs" />
+    <Compile Include="clsDealerUserProfileTabsRolesEAL.cs" />
+    <Compile Include="clsDownloadCategoryEAL.cs" />
+    <Compile Include="clsDownloadsEAL.cs" />
+    <Compile Include="clsDownloadsItemCatalogRelationEAL.cs" />
+    <Compile Include="clsDownloadSubCategoryEAL.cs" />
+    <Compile Include="clsFrontPagesContentEAL.cs" />
+    <Compile Include="clsGalleryPresentationsEAL.cs" />
+    <Compile Include="clsGeneralCMSEAL.cs" />
+    <Compile Include="clsGSFCatalogsEAL.cs" />
+    <Compile Include="clsHeadlinesEAL.cs" />
+    <Compile Include="clsHeadlinesTranslationEAL.cs" />
+    <Compile Include="clsLoginInfoEAL.cs" />
+    <Compile Include="clsLookUpTableEAL.cs" />
+    <Compile Include="clsMyModulexPicutureEAL.cs" />
+    <Compile Include="clsOrderFeeEAL.cs" />
+    <Compile Include="clsPageSecurityRolesEAL.cs" />
+    <Compile Include="clsPaymentTextEAL.cs" />
+    <Compile Include="clsPIM_CatalogEAL.cs" />
+    <Compile Include="clsPIM_ContentEAL.cs" />
+    <Compile Include="clsPIM_Content_TypeEAL.cs" />
+    <Compile Include="clsPIM_ConversionEAL.cs" />
+    <Compile Include="clsPIM_Default_SizesEAL.cs" />
+    <Compile Include="clsPIM_SubCatalogEAL.cs" />
+    <Compile Include="clsPIM_SubContent_TypeEAL.cs" />
+    <Compile Include="clsPIM_TagEAL.cs" />
+    <Compile Include="clsPIM_WebServices_LogEAL.cs" />
+    <Compile Include="clsDealerCustomerEAL.cs" />
+    <Compile Include="clsDealerMenuEAL.cs" />
+    <Compile Include="clsDealerRoleMenuEAL.cs" />
+    <Compile Include="clsDeliveryCostCountryEAL.cs" />
+    <Compile Include="clsDeliveryCostPostalCodeEAL.cs" />
+    <Compile Include="clsDiscountsEAL.cs" />
+    <Compile Include="clsFlashBannerEAL.cs" />
+    <Compile Include="clsFlashBannerRolesEAL.cs" />
+    <Compile Include="clsGalleryInternationalAccountsEAL.cs" />
+    <Compile Include="clsGalleryReferencesEAL.cs" />
+    <Compile Include="clsInspirationEAL.cs" />
+    <Compile Include="clsInternationalAccountRolesEAL.cs" />
+    <Compile Include="ClsInvoicePaymentDetailsEAL.cs" />
+    <Compile Include="clsLanguagesEAL.cs" />
+    <Compile Include="clsLoginLogEAL.cs" />
+    <Compile Include="clsMenuEAL.cs" />
+    <Compile Include="clsModulexColorEAL.cs" />
+    <Compile Include="clsNewsCategoryEAL.cs" />
+    <Compile Include="clsNewsEAL.cs" />
+    <Compile Include="clsNews_RolesEAL.cs" />
+    <Compile Include="clsOrderHeaderColorsEAL.cs" />
+    <Compile Include="clsOrderHeadersEAL.cs" />
+    <Compile Include="clsOrderInvoiceAddressEAL.cs" />
+    <Compile Include="clsOrderLinesEAL.cs" />
+    <Compile Include="clsOrderLinesMetadataEAL.cs" />
+    <Compile Include="clsPageLogEAL.cs" />
+    <Compile Include="clsPaymentProviderEAL.cs" />
+    <Compile Include="clsPaymentTermsEAL.cs" />
+    <Compile Include="clsPersonTypesEAL.cs" />
+    <Compile Include="clsPostalCodesEAL.cs" />
+    <Compile Include="clsProductBuilderEAL.cs" />
+    <Compile Include="clsProductCategoriesEAL.cs" />
+    <Compile Include="clsProductComponentsEAL.cs" />
+    <Compile Include="clsProductConfigurationEAL.cs" />
+    <Compile Include="clsProductConfigurationFieldsEAL.cs" />
+    <Compile Include="clsProductDocumentsEAL.cs" />
+    <Compile Include="clsProductFamilyCategoryTypesConfigurationEAL.cs" />
+    <Compile Include="clsProductFamilyCategoryTypesEAL.cs" />
+    <Compile Include="clsProductFamilyCategoryTypesGeneralEAL.cs" />
+    <Compile Include="clsProductFamilyCategoryTypesGraphicMethodEAL.cs" />
+    <Compile Include="clsProductFamilyCategoryTypesInstallationMethodEAL.cs" />
+    <Compile Include="clsProductFamilyCategoryTypesMaterialsEAL.cs" />
+    <Compile Include="clsProductFamilyCategoryTypesTypicalUseEAL.cs" />
+    <Compile Include="clsProductFamilyEAL.cs" />
+    <Compile Include="clsProductHandbookInfoEAL.cs" />
+    <Compile Include="clsProductRelatedProductsEAL.cs" />
+    <Compile Include="clsProductTextFieldsEAL.cs" />
+    <Compile Include="clsProductTranslationsEAL.cs" />
+    <Compile Include="clsProductTypesEAL.cs" />
+    <Compile Include="clsReferencesRolesEAL.cs" />
+    <Compile Include="clsReportIntervalTypeEAL.cs" />
+    <Compile Include="clsReportsEAL.cs" />
+    <Compile Include="clsReportSubscriberEAL.cs" />
+    <Compile Include="clsReportSubscriberParameterEAL.cs" />
+    <Compile Include="clsReportSubscriptionEAL.cs" />
+    <Compile Include="clsRolesEAL.cs" />
+    <Compile Include="clsRSSEAL.cs" />
+    <Compile Include="clsSalesPersonsEAL.cs" />
+    <Compile Include="clsServiceAgreementsEAL.cs" />
+    <Compile Include="clsServiceStatusEAL.cs" />
+    <Compile Include="clsServiceTicketPictureEAL.cs" />
+    <Compile Include="clsServiceTicketsEAL.cs" />
+    <Compile Include="clsServiceTicketStatusEAL.cs" />
+    <Compile Include="clsServiceTicketTypesEAL.cs" />
+    <Compile Include="clsServiceTypesEAL.cs" />
+    <Compile Include="clsShipmentMethodsEAL.cs" />
+    <Compile Include="clsStandardColorEAL.cs" />
+    <Compile Include="clsStartupCostsEAL.cs" />
+    <Compile Include="clsStaticWebPartsEAL.cs" />
+    <Compile Include="clsTopSellerEAL.cs" />
+    <Compile Include="clsTranslatedDealerMenuEAL.cs" />
+    <Compile Include="clsUserLocationsEAL.cs" />
+    <Compile Include="clsUserRolesEAL.cs" />
+    <Compile Include="clsUsersDiscountEAL.cs" />
+    <Compile Include="clsUsersEAL.cs" />
+    <Compile Include="clsUserWebServiceConfigurationEAL.cs" />
+    <Compile Include="clsWatchandLearnEAL.cs" />
+    <Compile Include="clsWelovetohelpDetailEAL.cs" />
+    <Compile Include="cls_ConfigurationEAL.cs" />
+    <Compile Include="clsLocationEAL.cs" />
+    <Compile Include="clsUserConditionEAL.cs" />
+    <Compile Include="clsProductPicturesEAL.cs" />
+    <Compile Include="clsProductSearchLogEAL.cs" />
+    <Compile Include="clsOrderHeaderDocumentsEAL.cs" />
+    <Compile Include="ClsOrderPaymentDetailsEAL.cs" />
+    <Compile Include="clsArchitectsScandinavianDesignEAL.cs" />
+    <Compile Include="clsArchitectsScandinavianDesignRolesEAL.cs" />
+    <Compile Include="clsHelpHeadersEAL.cs" />
+    <Compile Include="clsHelpLinesEAL.cs" />
+    <Compile Include="clsHelpPagesEAL.cs" />
+    <Compile Include="clsOrderPrefixEAL.cs" />
+    <Compile Include="clsPresentationEAL.cs" />
+    <Compile Include="clsDeliveryCostTransporterEAL.cs" />
+    <Compile Include="clsPaymentAreaEAL.cs" />
+    <Compile Include="clsNewsLettersEAL.cs" />
+    <Compile Include="clsNewslettersRolesEAL.cs" />
+    <Compile Include="clsPaymentFromEAL.cs" />
+    <Compile Include="clsLoyaltyStatusEAL.cs" />
+    <Compile Include="clsRedeemProductsEAL.cs" />
+    <Compile Include="EALEmailMetaData.cs" />
+    <Compile Include="clsProductsMainTableEAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="clsWelovetohelpHeaderEAL.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
